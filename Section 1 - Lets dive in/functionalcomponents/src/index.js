@@ -6,7 +6,8 @@ import './index.css'
 const App = () => {
   return (
     <div className="ui container">
-        <div id="card" className="ui piled segment">
+        <div id="card" className="ui raised segment">
+          <a class="ui blue ribbon label" href='/#'>Section 1: Functional component</a>
           <h1>Functional component Example</h1>
           <p>
             Mollit tempor ullamco sit anim amet minim sit dolor sit proident. Do ad minim nisi dolor officia non non aliqua et consequat aliqua. 
