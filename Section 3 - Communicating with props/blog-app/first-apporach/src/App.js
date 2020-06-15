@@ -2,6 +2,8 @@ import React from 'react';
 import faker from 'faker';
 
 function App() {
+  let date = new Date();
+
   return (
     <div className="ui container">
       <div className="ui raised segment">
@@ -59,6 +61,10 @@ function App() {
           </div>
         </div>
       </div>
+      <a class="ui blue image label" href="/">
+        Fabian Andres Levin
+        <div class="detail">{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</div>
+      </a>
     </div>
   );
 }
