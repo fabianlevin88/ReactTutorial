@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CommentDetails = (props) => {
+const CommentDetails = props => {
     
     return(
         <div className="comment">
