@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="ui container">
       <div className="ui riased segment">
-        <a class="ui blue ribbon label" href='/#'>Section 2: Inline CSS style</a>
+        <a className="ui blue ribbon label" href='/#'>Section 2: Inline CSS style</a>
         <div>
           <h1>Inline style formatting</h1>
           <pre>
@@ -38,7 +38,7 @@ function App() {
             <div className="ui input">
               <input type="text" placeholder="Search..." />
             </div>
-            <button class="ui green button" style={{ marginLeft: '5px' }}>Submit</button>
+            <button className="ui green button" style={{ marginLeft: '5px' }}>Submit</button>
           </div>
         </div>
         <pre>
@@ -54,9 +54,9 @@ function App() {
             </pre>
         </div>
       </div>
-      <a class="ui blue image label" href="/">
+      <a className="ui blue image label" href="/">
         Fabian Andres Levin
-        <div class="detail">{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</div>
+        <div className="detail">{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</div>
       </a>
     </div>
   );

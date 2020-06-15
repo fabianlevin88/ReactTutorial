@@ -61,9 +61,9 @@ function App() {
           </div>
         </div>
       </div>
-      <a class="ui blue image label" href="/">
+      <a className="ui blue image label" href="/">
         Fabian Andres Levin
-        <div class="detail">{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</div>
+        <div className="detail">{date.getMonth() + '/' + date.getDate() + '/' + date.getFullYear()}</div>
       </a>
     </div>
   );

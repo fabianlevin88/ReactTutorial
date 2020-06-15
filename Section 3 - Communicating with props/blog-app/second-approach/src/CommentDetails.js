@@ -1,6 +1,7 @@
 import React from 'react';
 
 const CommentDetails = (props) => {
+    
     return(
         <div className="comment">
             <a className="avatar" href="/">
