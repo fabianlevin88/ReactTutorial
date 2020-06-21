@@ -25,3 +25,11 @@
 .Summer {
     background-color: orangered !important;
 }
+
+.season-display.loader div{
+    border-radius: 3px;
+}
+
+.container {
+    margin-top: 10px !important;
+}

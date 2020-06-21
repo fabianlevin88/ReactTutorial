@@ -1,5 +1,6 @@
 import React from 'react';
 import './SeasonDisplay.css';
+import Spinner from './Spinner';
 
 const seasonConfig = {
     Summer: {
@@ -31,9 +32,8 @@ const SeasonDisplay = props => {
         return (
             <div className="ui container">
                 <div className="ui raised segment">
-                    <a id="ribbon" className={`ui ${color} ribbon label`} href='/#'>Section 6 - Understanding Lifecycle Methods</a>
-                    <div className="season-display">
-                        <div className="ui active centered inline loader"></div>
+                    <div className="season-display loader">
+                        <Spinner message="Please accept geolocation request" />
                     </div>
                 </div>
             </div>

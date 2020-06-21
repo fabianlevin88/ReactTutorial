@@ -12,7 +12,7 @@ class App extends React.Component {
     );
   }
 
-  render() {
+  renderContent() {
     if (!this.state.errorMessage && !this.state.latitude) {
       return <SeasonDisplay latitude={null} error={null} />
     } else if (this.state.errorMessage && !this.state.latitude) {
@@ -20,6 +20,10 @@ class App extends React.Component {
     } else if (!this.state.errorMessage && this.state.latitude) {
       return <SeasonDisplay latitude={this.state.latitude} error={null}/>
     }
+  }
+
+  render() {
+    return <div>{this.renderContent()}</div>
   }
 }
 
