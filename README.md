@@ -8,6 +8,8 @@ React tutorial from Udemy [Modern React with Redux [2020 Update]](https://www.ud
 * Section 4 - Structuring Apps with Class-Based Components (Completed **Seasons project will be continued in Section 5**)
 * Section 5 - Refactoring from Functional to Class Components (Completed **Seasons project will be completed in Section 6**)
 * Section 6 - Understanding Lifecycle Methods (Completed)
+* Section 7 - Handling User Input with Forms and Events (Completed)
+* Section 8 - Making API Requests with React (Completed)
 
 
 

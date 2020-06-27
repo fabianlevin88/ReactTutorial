@@ -4,4 +4,4 @@ This exercise consist in a list of images related to the user's input. This appl
 
 Also, this application will have two different versions. In the first one, the list of results will be displayed one image below the other. However, the second implementation will display the images in a grid with different sizes (more like google results is displayed).
 
-> **IMPORTANT**: The images will be fetched using an external API call.
+> **IMPORTANT**: The images will be fetched using an external API call in __section 8__.
