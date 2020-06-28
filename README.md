@@ -10,6 +10,7 @@ React tutorial from Udemy [Modern React with Redux [2020 Update]](https://www.ud
 * Section 6 - Understanding Lifecycle Methods (Completed)
 * Section 7 - Handling User Input with Forms and Events (Completed)
 * Section 8 - Making API Requests with React (Completed)
+* Section 9 - Building Lists of Records (Completed)
 
 
 
