@@ -11,7 +11,8 @@ React tutorial from Udemy [Modern React with Redux [2020 Update]](https://www.ud
 * Section 7 - Handling User Input with Forms and Events (Completed)
 * Section 8 - Making API Requests with React (Completed)
 * Section 9 - Building Lists of Records (Completed)
-* Section 10 - Using Ref's for DOM Access (In Progress)
+* Section 10 - Using Ref's for DOM Access (Completed)
+* Section 11 - Let's Test Your React Mastery! (Completed)
 
 
 
