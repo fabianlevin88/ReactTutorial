@@ -36,7 +36,7 @@ const Accordion = ({ items }) => {
 
     return (
         <div>
-            <div className="ui fluid styled accordion">
+            <div className="ui styled fluid accordion">
                 {itemsList}
             </div>
         </div>
