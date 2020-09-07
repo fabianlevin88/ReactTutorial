@@ -15,4 +15,4 @@ React tutorial from Udemy [Modern React with Redux [2020 Update]](https://www.ud
 * Section 11 - Let's Test Your React Mastery! (Completed)
 * Section 12 - Understanding Hooks in React (Completed)
 * Section 13 - Navigation From Scratch (Completed)
-* Section 14 - Hooks in Practice
+* Section 14 - Hooks in Practice (custom hook needs to be added)
