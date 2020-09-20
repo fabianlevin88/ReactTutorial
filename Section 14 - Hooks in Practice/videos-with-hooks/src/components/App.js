@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="square ui container">
       <div className="ui raised segment">
-        <a id="ribbon" className="ui blue ribbon label" href='/#'>Section 14 - Hooks in Practice</a>
+        <a id="ribbon" className="ui blue ribbon label" href='/'>Section 14 - Hooks in Practice</a>
         <SearchBar onFormSubmit={search}/>
       </div>
       <div className="ui raised segment">
