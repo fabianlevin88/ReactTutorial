@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Route from './Route';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
@@ -16,7 +17,9 @@ const App = () => {
   return (
     <div className="square ui container">
       <div className="ui raised segment">
-        <a id="ribbon" className="ui blue ribbon label" href='/'>Section 14 - Hooks in Practice</a>
+        <Route path="/">
+          <a id="ribbon" className="ui blue ribbon label" href='/'>Section 14 - Hooks in Practice</a>
+        </Route>
         <SearchBar onFormSubmit={search}/>
       </div>
       <div className="ui raised segment">
