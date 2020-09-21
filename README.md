@@ -16,3 +16,4 @@ React tutorial from Udemy [Modern React with Redux [2020 Update]](https://www.ud
 * Section 12 - Understanding Hooks in React (Completed)
 * Section 13 - Navigation From Scratch (Completed)
 * Section 14 - Hooks in Practice (custom hook created)
+* Section 15 - Deploying a React App (The app in Section 14 has been deployed using vercel [here](https://videos-with-hooks-9thz8b5h7.vercel.app/))
